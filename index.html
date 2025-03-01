@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highest-grossing films 🎬</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Highest-grossing films 🎬</h1>
+    <div id="films-data">
+        <div class="filter-container">
+            <label for="filter"> Film 🔍</label>
+            <input type="text" id="filter" oninput="filterTable()" placeholder="Enter the film name">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th><button onclick="sortTable('id')"> Id <span></span></button></th>
+                    <th><button onclick="sortTable('title')">Film name<span></span></button></th>
+                    <th><button onclick="sortTable('release_year')">Release year<span></span></button></th>
+                    <th>Director</th>
+                    <th>Box office revenue</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody id="film-table-content">
+
+            </tbody>
+        </table>
+
+    </div>
+    # link to javascript file
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
