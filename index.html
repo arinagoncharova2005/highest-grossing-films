@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Highest-grossing films 🎬</title>
@@ -14,12 +15,31 @@
             <label for="filter"> Film 🔍</label>
             <input type="text" id="filter" oninput="filterTable()" placeholder="Enter the film name">
         </div>
+        <div id="sorting-controls">
+            <label for="sort-field">Sort by:</label>
+            <select id="sort-field" onchange="sortTable()">
+                <option value="id">ID</option>
+                <option value="title">Film Name</option>
+                <option value="release_year">Release Year</option>
+            </select>
+        
+            <!-- <label for="sort-direction">Order:</label>
+            <input type="checkbox" id="sort-direction" onchange="sortTable()"> ⬆️/⬇️ -->
+
+            <label class="toggle-switch">
+                <input type="checkbox" id="sort-direction" onchange="sortTable()">
+                <span class="slider">
+                </span>
+            </label>
+        
+            <button onclick="resetSorting()">Reset</button>
+        </div>
         <table>
             <thead>
                 <tr>
-                    <th><button onclick="sortTable('id')"> Id <span></span></button></th>
-                    <th><button onclick="sortTable('title')">Film name<span></span></button></th>
-                    <th><button onclick="sortTable('release_year')">Release year<span></span></button></th>
+                    <th>Id</th>
+                    <th>Film name</th>
+                    <th>Release year</th>
                     <th>Director</th>
                     <th>Box office revenue</th>
                     <th>Country</th>
