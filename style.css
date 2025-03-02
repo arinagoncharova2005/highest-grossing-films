@@ -1,7 +1,9 @@
 body {
     font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 1px; /* Adds space between letters */
-    opacity: 0.6; /* Reduces bold effect */
+    /* add space between letters */
+    letter-spacing: 1px;
+    /* reduce bold effect */
+    opacity: 0.6;
     text-align: center;
 }
  
@@ -33,6 +35,9 @@ th {
     color: #3c096c;
     padding: 10px;
     text-align: left;
+    font-size: 18px;
+    /* remove bold */
+    font-weight: normal;
 }
 
 td {
@@ -49,7 +54,8 @@ td, th {
     
     /* if the text is too large */
     overflow: hidden;
-    text-overflow: ellipsis; /* Cuts off long text with "..." */
+    /* cut the long text with "..." */
+    text-overflow: ellipsis;
     white-space: nowrap;
 }
 
@@ -58,7 +64,8 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr:hover {
-    background-color: #f0e6ef;
+    /* background-color: #f0e6ef; */
+    background-color: #3c096c22;
     transition: 0.3s;
 }
 
@@ -90,8 +97,10 @@ tbody tr:hover {
 }
 
 #filter::placeholder {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
     color: #b8bedd;
-    font-style: italic;
 }
 
 #filter:focus {
@@ -109,40 +118,44 @@ tbody tr:hover {
 
 select, button, input {
     padding: 5px;
-    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
 }
 
 button {
+    padding: 5px 10px;
     background-color: #b8bedd;
     color: white;
-    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 button:hover {
     background-color: #5a189a;
 }
 
-/* switch */
+/* switch for asc/desc sorting*/
 
-/* Toggle Switch */
 .toggle-switch {
     position: relative;
     display: inline-block;
-    width: 70px; /* Ширина переключателя */
+    width: 70px;
     height: 30px;
 }
 
-/* Скрываем стандартный чекбокс */
+/* hide standart checkbox */
 .toggle-switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
 
-/* Фон слайдера */
+/* slider background */
 .slider {
     position: absolute;
     cursor: pointer;
@@ -155,9 +168,10 @@ button:hover {
     transition: 0.3s;
 }
 
-/* Сам круглый ползунок */
+/* circle element in toggle */
 .slider:before {
-    content: "ASC"; /* Начальная иконка */
+    /* initial name for circle  */
+    content: "ASC"; 
     position: absolute;
     height: 24px;
     width: 24px;
@@ -172,13 +186,33 @@ button:hover {
     transition: 0.3s;
 }
 
-/* Когда включено (checkbox checked) */
+/* when checkbox checked */
 input:checked + .slider {
     background-color: #5a189a;
 }
 
-/* Двигаем ползунок вправо */
+/* move to the right */
 input:checked + .slider:before {
     transform: translateX(38px);
-    content: "DESC"; /* Меняем иконку */
+    /* change the text */
+    content: "DESC";
+}
+/* delete the background from the first td because it is a film image */
+td:first-child {
+    padding: 0; 
+    width: 125px; 
+    height: 250px;
+}
+
+/* set film image to the full space in the table cell */
+td:first-child img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+/* make the first td transparent because there will be no text */
+th:first-child {
+    background-color: transparent !important;
 }

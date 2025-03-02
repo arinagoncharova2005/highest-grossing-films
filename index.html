@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Highest-grossing films 🎬</title>
@@ -18,13 +17,11 @@
         <div id="sorting-controls">
             <label for="sort-field">Sort by:</label>
             <select id="sort-field" onchange="sortTable()">
-                <option value="id">ID</option>
+                <option value="rank">Rank</option>
                 <option value="title">Film Name</option>
                 <option value="release_year">Release Year</option>
             </select>
-        
-            <!-- <label for="sort-direction">Order:</label>
-            <input type="checkbox" id="sort-direction" onchange="sortTable()"> ⬆️/⬇️ -->
+    
 
             <label class="toggle-switch">
                 <input type="checkbox" id="sort-direction" onchange="sortTable()">
@@ -37,7 +34,8 @@
         <table>
             <thead>
                 <tr>
-                    <th>Id</th>
+                    <th></th>
+                    <th>Rank</th>
                     <th>Film name</th>
                     <th>Release year</th>
                     <th>Director</th>
@@ -46,12 +44,12 @@
                 </tr>
             </thead>
             <tbody id="film-table-content">
-
+                <!-- here will be the table content -->
             </tbody>
         </table>
 
     </div>
-    # link to javascript file
+    <!-- link to javascript file -->
     <script src="script.js"></script>
     
     

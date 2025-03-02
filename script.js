@@ -21,14 +21,17 @@ function showDataInTable(data) {
 
             data.forEach(film => {
                 const row = document.createElement('tr');
-                // show directors using commas if it is an array
+                // get the flag of the country 
+                const countryFlagEmoji = findCounryFlag(film.country);
+                // show directors using commas because it is array
                 row.innerHTML = `
-                    <td>${film.id}</td>
+                    <td><img src="${film.image_url}" alt="${film.title}" width="100"></td>
+                    <td>${film.rank}</td>
                     <td>${film.title}</td>
                     <td>${film.release_year}</td>
-                    <td>${Array.isArray(film.director) ? film.director.join(', ') : film.director}</td>
+                    <td>${film.director.join(', ')}</td>
                     <td>${film.box_office}</td>
-                    <td>${film.country}</td>
+                    <td>${countryFlagEmoji} ${film.country}</td>
                 `;
                 tableBody.appendChild(row);
             })
@@ -79,8 +82,28 @@ function filterTable() {
 }
 
 function resetSorting() {
-    window.filmsData = [...initialData]; // Reset to original order
+    // return to original order
+    window.filmsData = [...initialData];
     document.getElementById('sort-field').value = 'id';
     document.getElementById('sort-direction').checked = false;
     showDataInTable(window.filmsData);
+}
+
+function findCounryFlag(country) {
+    const countryFlagsDict = {
+        "Russia": "🇷🇺",
+        "United States": "🇺🇸",
+        "United Kingdom": "🇬🇧",
+        "France": "🇫🇷",
+        "Germany": "🇩🇪",
+        "Italy": "🇮🇹",
+        "Spain": "🇪🇸",
+        "Japan": "🇯🇵",
+        "South Korea": "🇰🇷",
+        "China": "🇨🇳",
+        "India": "🇮🇳",
+        "Canada": "🇨🇦",
+        "Australia": "🇦🇺",
+    }
+    return countryFlagsDict[country] || '🌍';
 }
