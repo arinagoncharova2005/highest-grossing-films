@@ -62,19 +62,6 @@ tbody tr:hover {
     transition: 0.3s;
 }
 
-th button {
-    background: none;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    color: #3c096c;
-    font-size: 16px;
-}
-
-th button:hover {
-    color: #5a189a;
-    text-decoration: underline;
-}
 
 .filter-container {
     display: flex;
@@ -110,4 +97,30 @@ th button:hover {
 #filter:focus {
     border-color: #5a189a;
     box-shadow: 0px 0px 10px rgba(90, 24, 154, 0.4);
+}
+
+#sorting-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+select, button, input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #b8bedd;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #5a189a;
 }

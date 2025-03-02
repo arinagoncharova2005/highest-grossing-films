@@ -1,11 +1,15 @@
+let initialData = [];
+
 document.addEventListener('DOMContentLoaded', () => {
     fetch('films_data.json').
         then(response => response.json()).
         then(data => {
             //global variable foe sorting films
             window.filmsData = data;
+            // save copy of initial data to restore it
+            initialData = [...data];
             window.filmsData.sort((a, b) => a.id - b.id);
-            showDataInTable(filmsData);
+            showDataInTable(window.filmsData);
         })
         .catch(error => console.log('Error with JSON file:', error));
 
@@ -17,11 +21,12 @@ function showDataInTable(data) {
 
             data.forEach(film => {
                 const row = document.createElement('tr');
+                // show directors using commas if it is an array
                 row.innerHTML = `
                     <td>${film.id}</td>
                     <td>${film.title}</td>
                     <td>${film.release_year}</td>
-                    <td>${film.director}</td>
+                    <td>${Array.isArray(film.director) ? film.director.join(', ') : film.director}</td>
                     <td>${film.box_office}</td>
                     <td>${film.country}</td>
                 `;
@@ -29,20 +34,13 @@ function showDataInTable(data) {
             })
 }
 
-let sortAsc = true;
+
 let curSortColumnName = '';
+let sortAsc = true;
 
-function sortTable(columnName) {
-    const columnNamesElems = document.querySelectorAll('th span');
-    // reset all spans before sorting
-    columnNamesElems.forEach(span => span.textContent = "");
-    if (curSortColumnName === columnName) {
-        sortAsc = !sortAsc;
-    } else  {
-        sortAsc = true;
-        curSortColumnName = columnName;
-
-    }
+function sortTable() {
+    let columnName = document.getElementById('sort-field').value;
+    sortAsc = !document.getElementById('sort-direction').checked; 
 
     window.filmsData.sort((a, b) => {
         let aValue = a[columnName];
@@ -50,7 +48,7 @@ function sortTable(columnName) {
 
         if (columnName == 'release_year') {
             aValue = parseInt(aValue, 10);
-            b_Value = parseInt(aValue, 10);
+            bValue = parseInt(bValue, 10);
         }
 
         if (aValue < bValue) {
@@ -62,9 +60,6 @@ function sortTable(columnName) {
         return 0;
     });
     showDataInTable(window.filmsData);
-    //add direction of sorting icons
-    const activeHeader = document.querySelector(`th:nth-child(${getColumnIndex(columnName)}) span`);
-    activeHeader.textContent = sortAsc ? " ⬆️" : " ⬇️";
 }
 
 function getColumnIndex(columnName) {
@@ -75,10 +70,17 @@ function getColumnIndex(columnName) {
 function filterTable() {
     const filterText = document.getElementById('filter').value.toLowerCase();
 
-    // Фильтруем глобальный массив filmsData
+    // filter films by name
     const filteredData = window.filmsData.filter(film =>
         film.title.toLowerCase().includes(filterText)
     );
 
     showDataInTable(filteredData);
+}
+
+function resetSorting() {
+    window.filmsData = [...initialData]; // Reset to original order
+    document.getElementById('sort-field').value = 'id';
+    document.getElementById('sort-direction').checked = false;
+    showDataInTable(window.filmsData);
 }
