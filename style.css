@@ -124,3 +124,61 @@ button {
 button:hover {
     background-color: #5a189a;
 }
+
+/* switch */
+
+/* Toggle Switch */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 70px; /* Ширина переключателя */
+    height: 30px;
+}
+
+/* Скрываем стандартный чекбокс */
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Фон слайдера */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: 0.3s;
+}
+
+/* Сам круглый ползунок */
+.slider:before {
+    content: "ASC"; /* Начальная иконка */
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Когда включено (checkbox checked) */
+input:checked + .slider {
+    background-color: #5a189a;
+}
+
+/* Двигаем ползунок вправо */
+input:checked + .slider:before {
+    transform: translateX(38px);
+    content: "DESC"; /* Меняем иконку */
+}

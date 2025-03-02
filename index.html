@@ -22,8 +22,14 @@
                 <option value="release_year">Release Year</option>
             </select>
         
-            <label for="sort-direction">Order:</label>
-            <input type="checkbox" id="sort-direction" onchange="sortTable()"> ⬆️/⬇️
+            <!-- <label for="sort-direction">Order:</label>
+            <input type="checkbox" id="sort-direction" onchange="sortTable()"> ⬆️/⬇️ -->
+
+            <label class="toggle-switch">
+                <input type="checkbox" id="sort-direction" onchange="sortTable()">
+                <span class="slider">
+                </span>
+            </label>
         
             <button onclick="resetSorting()">Reset</button>
         </div>
