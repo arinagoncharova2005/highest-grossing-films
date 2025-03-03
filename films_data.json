@@ -7,7 +7,7 @@
         "director": [
             "James Cameron"
         ],
-        "box_office": "$2.923 billion ",
+        "box_office": "$2.923 billion",
         "country": "United Kingdom",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Avatar_%282009_film%29_poster.jpg/220px-Avatar_%282009_film%29_poster.jpg"
     },
@@ -20,7 +20,7 @@
             "Anthony Russo",
             "Joe Russo"
         ],
-        "box_office": "$2.799 billion ",
+        "box_office": "$2.799 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg"
     },
@@ -32,7 +32,7 @@
         "director": [
             "James Cameron"
         ],
-        "box_office": "$2.320 billion  ",
+        "box_office": "$2.320 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Avatar_The_Way_of_Water_poster.jpg/220px-Avatar_The_Way_of_Water_poster.jpg"
     },
@@ -44,7 +44,7 @@
         "director": [
             "James Cameron"
         ],
-        "box_office": "$2.264 billion ",
+        "box_office": "$2.264 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png"
     },
@@ -56,7 +56,7 @@
         "director": [
             "J. J. Abrams"
         ],
-        "box_office": "$2.07 billion ",
+        "box_office": "$2.07 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg"
     },
@@ -69,7 +69,7 @@
             "Anthony Russo",
             "Joe Russo"
         ],
-        "box_office": "$2.052 billion ",
+        "box_office": "$2.052 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg"
     },
@@ -81,7 +81,7 @@
         "director": [
             "Jiaozi"
         ],
-        "box_office": "$1.98 billion  ",
+        "box_office": "$1.99 billion",
         "country": "China",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Ne_Zha_2_poster.jpg/220px-Ne_Zha_2_poster.jpg"
     },
@@ -93,7 +93,7 @@
         "director": [
             "Jon Watts"
         ],
-        "box_office": "$1.923 billion  ",
+        "box_office": "$1.923 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Spider-Man_No_Way_Home_poster.jpg/220px-Spider-Man_No_Way_Home_poster.jpg"
     },
@@ -105,7 +105,7 @@
         "director": [
             "Kelsey Mann"
         ],
-        "box_office": "$1.699 billion  ",
+        "box_office": "$1.699 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Inside_Out_2_poster.jpg/220px-Inside_Out_2_poster.jpg"
     },
@@ -117,7 +117,7 @@
         "director": [
             "Colin Trevorrow"
         ],
-        "box_office": "$1.671 billion ",
+        "box_office": "$1.671 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Jurassic_World_poster.jpg/220px-Jurassic_World_poster.jpg"
     },
@@ -129,7 +129,7 @@
         "director": [
             "Jon Favreau"
         ],
-        "box_office": "$1.657 billion ",
+        "box_office": "$1.657 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/9/9d/Disney_The_Lion_King_2019.jpg"
     },
@@ -141,7 +141,7 @@
         "director": [
             "Joss Whedon"
         ],
-        "box_office": "$1.521 billion ",
+        "box_office": "$1.521 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg"
     },
@@ -153,8 +153,8 @@
         "director": [
             "James Wan"
         ],
-        "box_office": "$1.515 billion ",
-        "country": "United StatesChina",
+        "box_office": "$1.515 billion",
+        "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Furious_7_poster.jpg/220px-Furious_7_poster.jpg"
     },
     {
@@ -165,7 +165,7 @@
         "director": [
             "Joseph Kosinski"
         ],
-        "box_office": "$1.496 billion  ",
+        "box_office": "$1.496 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Top_Gun_Maverick_Poster.jpg/220px-Top_Gun_Maverick_Poster.jpg"
     },
@@ -190,7 +190,7 @@
         "director": [
             "Greta Gerwig"
         ],
-        "box_office": "$1.446 billion  ",
+        "box_office": "$1.446 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg"
     },
@@ -202,7 +202,7 @@
         "director": [
             "Joss Whedon"
         ],
-        "box_office": "$1.405 billion ",
+        "box_office": "$1.405 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg"
     },
@@ -215,7 +215,7 @@
             "Aaron Horvath",
             "Michael Jelenic"
         ],
-        "box_office": "$1.363 billion  ",
+        "box_office": "$1.363 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/The_Super_Mario_Bros._Movie_poster.jpg/220px-The_Super_Mario_Bros._Movie_poster.jpg"
     },
@@ -227,7 +227,7 @@
         "director": [
             "Ryan Coogler"
         ],
-        "box_office": "$1.35 billion ",
+        "box_office": "$1.35 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg"
     },
@@ -239,7 +239,7 @@
         "director": [
             "David Yates"
         ],
-        "box_office": "$1.342 billion ",
+        "box_office": "$1.342 billion",
         "country": "United Kingdom",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/d/df/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2.jpg"
     },
@@ -251,7 +251,7 @@
         "director": [
             "Shawn Levy"
         ],
-        "box_office": "$1.338 billion  ",
+        "box_office": "$1.338 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Deadpool_%26_Wolverine_poster.jpg/220px-Deadpool_%26_Wolverine_poster.jpg"
     },
@@ -263,7 +263,7 @@
         "director": [
             "Rian Johnson"
         ],
-        "box_office": "$1.334 billion ",
+        "box_office": "$1.334 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg"
     },
@@ -275,7 +275,7 @@
         "director": [
             "J. A. Bayona"
         ],
-        "box_office": "$1.31 billion ",
+        "box_office": "$1.31 billion",
         "country": "China",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Jurassic_World_Fallen_Kingdom.png/220px-Jurassic_World_Fallen_Kingdom.png"
     },
@@ -288,7 +288,7 @@
             "Chris Buck",
             "Jennifer Lee"
         ],
-        "box_office": "$1.280 billion ",
+        "box_office": "$1.280 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Frozen_%282013_film%29_poster.jpg/220px-Frozen_%282013_film%29_poster.jpg"
     },
@@ -300,7 +300,7 @@
         "director": [
             "Bill Condon"
         ],
-        "box_office": "$1.266 billion ",
+        "box_office": "$1.266 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/d/d6/Beauty_and_the_Beast_2017_poster.jpg"
     },
@@ -312,7 +312,7 @@
         "director": [
             "Brad Bird"
         ],
-        "box_office": "$1.243 billion ",
+        "box_office": "$1.243 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Incredibles_2_%282018_animated_film%29.jpg/220px-Incredibles_2_%282018_animated_film%29.jpg"
     },
@@ -324,7 +324,7 @@
         "director": [
             "F. Gary Gray"
         ],
-        "box_office": "$1.236 billion ",
+        "box_office": "$1.236 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/The_Fate_of_The_Furious_Theatrical_Poster.jpg/220px-The_Fate_of_The_Furious_Theatrical_Poster.jpg"
     },
@@ -336,7 +336,7 @@
         "director": [
             "Shane Black"
         ],
-        "box_office": "$1.266 billion ",
+        "box_office": "$1.266 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/1/19/Iron_Man_3_poster.jpg"
     },
@@ -349,7 +349,7 @@
             "Pierre Coffin",
             "Kyle Balda"
         ],
-        "box_office": "$1.159 billion ",
+        "box_office": "$1.159 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/1/19/Minions_%282015_film%29.jpg"
     },
@@ -363,7 +363,7 @@
             "Anthony Russo",
             "Joe Russo"
         ],
-        "box_office": "$1.155 billion ",
+        "box_office": "$1.155 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg"
     },
@@ -375,7 +375,7 @@
         "director": [
             "James Wan"
         ],
-        "box_office": "$1.152 billion ",
+        "box_office": "$1.152 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/e/ed/Aquaman_%28film%29_poster.jpg"
     },
@@ -387,7 +387,7 @@
         "director": [
             "Peter Jackson"
         ],
-        "box_office": "$1.151 billion ",
+        "box_office": "$1.151 billion",
         "country": "New Zealand",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/4/48/Lord_Rings_Return_King.jpg"
     },
@@ -399,7 +399,7 @@
         "director": [
             "Jon Watts"
         ],
-        "box_office": "$1.133 billion ",
+        "box_office": "$1.133 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/b/bd/Spider-Man_Far_From_Home_poster.jpg"
     },
@@ -409,9 +409,10 @@
         "title": "Captain Marvel",
         "release_year": 2019,
         "director": [
-            "Anna BodenRyan Fleck"
+            "Anna Boden",
+            "Ryan Fleck"
         ],
-        "box_office": "$1.131 billion ",
+        "box_office": "$1.131 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Captain_Marvel_%28film%29_poster.jpg"
     },
@@ -423,7 +424,7 @@
         "director": [
             "Michael Bay"
         ],
-        "box_office": "$1.124 billion ",
+        "box_office": "$1.124 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Transformers_dark_of_the_moon_ver5.jpg/220px-Transformers_dark_of_the_moon_ver5.jpg"
     },
@@ -435,7 +436,7 @@
         "director": [
             "Sam Mendes"
         ],
-        "box_office": "$1.109 billion ",
+        "box_office": "$1.109 billion",
         "country": "United Kingdom",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Skyfall_poster.jpg/220px-Skyfall_poster.jpg"
     },
@@ -447,7 +448,7 @@
         "director": [
             "Michael Bay"
         ],
-        "box_office": "$1.104 billion ",
+        "box_office": "$1.104 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Transformers_Age_of_Extinction_poster.jpg/220px-Transformers_Age_of_Extinction_poster.jpg"
     },
@@ -459,7 +460,7 @@
         "director": [
             "Christopher Nolan"
         ],
-        "box_office": "$1.115 billion ",
+        "box_office": "$1.115 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg"
     },
@@ -471,7 +472,7 @@
         "director": [
             "Todd Phillips"
         ],
-        "box_office": "$1.079 billion  ",
+        "box_office": "$1.079 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Joker_%282019_film%29_poster.jpg/220px-Joker_%282019_film%29_poster.jpg"
     },
@@ -483,7 +484,7 @@
         "director": [
             "J. J. Abrams"
         ],
-        "box_office": "$1.077 billion ",
+        "box_office": "$1.077 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/a/af/Star_Wars_The_Rise_of_Skywalker_poster.jpg"
     },
@@ -495,7 +496,7 @@
         "director": [
             "Josh Cooley"
         ],
-        "box_office": "$1.074 billion ",
+        "box_office": "$1.074 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Toy_Story_4_poster.jpg"
     },
@@ -507,7 +508,7 @@
         "director": [
             "Lee Unkrich"
         ],
-        "box_office": "$1.067 billion ",
+        "box_office": "$1.067 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg"
     },
@@ -519,7 +520,7 @@
         "director": [
             "Gore Verbinski"
         ],
-        "box_office": "$1.066 billion ",
+        "box_office": "$1.066 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Pirates_of_the_caribbean_2_poster_b.jpg/220px-Pirates_of_the_caribbean_2_poster_b.jpg"
     },
@@ -531,7 +532,7 @@
         "director": [
             "Gareth Edwards"
         ],
-        "box_office": "$1.059 billion ",
+        "box_office": "$1.059 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Rogue_One%2C_A_Star_Wars_Story_poster.png/220px-Rogue_One%2C_A_Star_Wars_Story_poster.png"
     },
@@ -545,7 +546,7 @@
             "Jason Hand",
             "Dana Ledoux Miller"
         ],
-        "box_office": "$1.05 billion  ",
+        "box_office": "$1.05 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Moana_2_poster.jpg/220px-Moana_2_poster.jpg"
     },
@@ -557,7 +558,7 @@
         "director": [
             "Guy Ritchie"
         ],
-        "box_office": "$1.054 billion ",
+        "box_office": "$1.054 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/9/9a/Aladdin_%28Official_2019_Film_Poster%29.png"
     },
@@ -569,7 +570,7 @@
         "director": [
             "George Lucas"
         ],
-        "box_office": "$1.047 billion  ",
+        "box_office": "$1.047 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Star_Wars_Phantom_Menace_poster.jpg/220px-Star_Wars_Phantom_Menace_poster.jpg"
     },
@@ -581,7 +582,7 @@
         "director": [
             "Rob Marshall"
         ],
-        "box_office": "$1.046 billion ",
+        "box_office": "$1.046 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Pirates_of_the_Caribbean_-_On_Stranger_Tides.png/220px-Pirates_of_the_Caribbean_-_On_Stranger_Tides.png"
     },
@@ -593,7 +594,7 @@
         "director": [
             "Steven Spielberg"
         ],
-        "box_office": "$1.058 billion ",
+        "box_office": "$1.058 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg"
     },
@@ -606,7 +607,7 @@
             "Pierre Coffin",
             "Kyle Balda"
         ],
-        "box_office": "$1.035 billion ",
+        "box_office": "$1.035 billion",
         "country": "United States",
         "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Despicable_Me_3_theatrical_release_poster.jpg/220px-Despicable_Me_3_theatrical_release_poster.jpg"
     }
