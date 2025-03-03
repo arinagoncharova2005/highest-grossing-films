@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Highest-grossing films 🎬</title>
     <link rel="stylesheet" href="style.css">
+    <!-- add the font -->
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Highest-grossing films 🎬</h1>
     <div id="films-data">
+        <!-- field to enter the film name to filter the needed ones -->
         <div class="filter-container">
             <label for="filter"> Search Film 🔍</label>
             <input type="text" id="filter" oninput="filterTable()" placeholder="Enter the film name">
         </div>
+        <!-- menu to choose the column to sort by -->
         <div id="sorting-controls">
             <label for="sort-field">Sort by:</label>
             <select id="sort-field" onchange="sortTable()">
@@ -22,15 +25,17 @@
                 <option value="release_year">Release Year</option>
             </select>
     
-
+            <!-- toggle to select the direction of sorting -->
             <label class="toggle-switch">
                 <input type="checkbox" id="sort-direction" onchange="sortTable()">
                 <span class="slider">
                 </span>
             </label>
-        
+
+            <!-- button to reset the films order to be sorted by rank -->
             <button onclick="resetSorting()">Reset</button>
         </div>
+        <!-- table with the films -->
         <table>
             <thead>
                 <tr>
@@ -44,7 +49,7 @@
                 </tr>
             </thead>
             <tbody id="film-table-content">
-                <!-- here will be the table content -->
+                <!-- the table content will be loaded here -->
             </tbody>
         </table>
 

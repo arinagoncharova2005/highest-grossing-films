@@ -3,13 +3,12 @@ body {
     /* add space between letters */
     letter-spacing: 1px;
     /* reduce bold effect */
-    opacity: 0.6;
+    opacity: 0.9;
     text-align: center;
 }
  
 h1 {
     margin-top: 50px;
-
 }
 
 .table_container {
@@ -139,7 +138,7 @@ button:hover {
     background-color: #5a189a;
 }
 
-/* switch for asc/desc sorting*/
+/* switch for asc/desc sorting */
 
 .toggle-switch {
     position: relative;
