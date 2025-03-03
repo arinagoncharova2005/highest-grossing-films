@@ -106,11 +106,8 @@ function findCounryFlag(country) {
         "Italy": "🇮🇹",
         "Spain": "🇪🇸",
         "Japan": "🇯🇵",
-        "South Korea": "🇰🇷",
         "China": "🇨🇳",
-        "India": "🇮🇳",
         "Canada": "🇨🇦",
-        "Australia": "🇦🇺",
     }
     // if there is no given country, return the Earth smile
     return countryFlagsDict[country] || '🌍';
